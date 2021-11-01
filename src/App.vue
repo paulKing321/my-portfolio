@@ -1,5 +1,5 @@
 <template>
-  <div id="nav">
+  <div id="nav" class="bg-red-500 p-4 shadow-lg flex flex-col lg:flex-row">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
@@ -7,8 +7,27 @@
 </template>
 
 <style>
+/* @font-face {
+  font-family: Nisha;
+  src: url("assets/Nisha Extended Nerd Font Complete.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Nisha;
+  src: url("assets/Nisha Bold Extended Nerd Font Complete.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Nisha;
+  src: url("assets/Nisha Light Extended Nerd Font Complete.ttf");
+  font-weight: 100;
+} */
+
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Nisha, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
