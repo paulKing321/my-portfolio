@@ -1,7 +1,13 @@
 <template>
   <div id="nav" class="bg-red-500 p-4 shadow-lg flex flex-col lg:flex-row">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/"
+    class="text-white px-4 py-2 m-1 rounded-nd"
+    exact-active-class="bg-red-800"
+    >Home</router-link> |
+    <router-link to="/about"
+    class="text-white px-4 py-2 m-1 rounded-nd"
+    exact-active-class="bg-red-800"
+    >About</router-link>
   </div>
   <router-view/>
 </template>
