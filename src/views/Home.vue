@@ -1,9 +1,10 @@
 <template>
   <div class="home">
-    <img class="w-0.25 border-radius:50% border-4px-pink-solid" src="../assets/paul.jpg">
-    <h1 class="text-6xl m-4">
+    <h1 class="text-purple-400 px-4 flex flex-start">Paul Adeoye</h1>
+    <img class="w-60 mx-80 mt-20 border-solid border-4 border-purple-400, rounded-full" src="../assets/paul.jpg">
+    <h2 class="text-center text-6xl m-4">
       <span class="text-purple-400">Welcome </span>to my Portfolio
-    </h1>
+    </h2>
   </div>
 </template>
 
@@ -15,3 +16,16 @@ export default {
 
 }
 </script>
+
+<style scoped>
+h1 {
+  margin-top: -65px;
+  font-weight: bold;
+}
+h2 {
+  text-align: center;
+}
+img {
+  border: 4px solid rgb(178, 42, 241);
+}
+</style>
