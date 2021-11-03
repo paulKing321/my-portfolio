@@ -2,19 +2,19 @@
   <div id="nav" class="bg-black p-4 flex flex-row">
     <router-link to="/"
       class="text-white px-4 py-2 m-1 rounded"
-      exact-active-class="bg-purple-400"
+      exact-active-class="bg-purple-700"
       >Home</router-link>
       <router-link to="/about"
       class="text-white px-4 py-2 m-1 rounded"
-      exact-active-class="bg-purple-400"
+      exact-active-class="bg-purple-700"
       >About</router-link>
       <router-link to="/projects"
       class="text-white px-4 py-2 m-1 rounded"
-      exact-active-class="bg-purple-400"
+      exact-active-class="bg-purple-700"
       >Projects</router-link>
       <router-link to="/contact"
       class="text-white px-4 py-2 m-1 rounded"
-      exact-active-class="bg-purple-400"
+      exact-active-class="bg-purple-700"
       >Contact</router-link>
   </div>
   <router-view/>
