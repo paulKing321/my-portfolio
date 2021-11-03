@@ -25,7 +25,4 @@ h1 {
 h2 {
   text-align: center;
 }
-img {
-  /* border: 4px solid rgb(178, 42, 241); */
-}
 </style>

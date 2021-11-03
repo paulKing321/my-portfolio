@@ -1,8 +1,8 @@
 <template>
 <div id="app">
   <div class="flex flex-row">
-    <h1 class="text-purple-700 font-bold my-10 mx-4">Paul Adeoye</h1>
-    <div id="nav" class="bg-black p-4 flex items-end flex-row">
+    <h1 class="text-purple-500 font-bold my-8 mx-4">Paul Adeoye</h1>
+    <div id="nav" class="bg-black p-4 flex flex-row">
       <router-link to="/"
         class="text-white px-4 py-2 m-1 rounded"
         exact-active-class="bg-purple-700"
@@ -49,6 +49,7 @@
   align-items: flex-end;
   justify-content: flex-end;
   justify-items: flex-end;
+  margin-left: 48em;
 }
 
 #nav a{

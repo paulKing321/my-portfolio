@@ -9,6 +9,9 @@
       </div>
       <img class="w-60 mx-40 border-4 border-purple-700 rounded-md " src="../assets/paulking.jpg">
     </div>
-    <button class=" bg-purple-700 py-2 px-4 border-4 border-purple-700 rounded-full">My Projects</button>
+    <router-link to="/projects"
+        class="text-white px-4 py-2 m-1 rounded"
+        exact-active-class="bg-purple-700"
+        >My Projects</router-link>
   </div>
 </template>
